@@ -182,34 +182,17 @@ public class SimpleDynamoProvider extends ContentProvider {
 			while(chordIter.hasNext()){
 				String port=chordIter.next();
 				String successorPort=chord.get((chord.indexOf(port)+1)%chord.size());
+
 				String portid=reversenodejoin.get(port);
 				String predecessorPortId=reversenodejoin.get(chord.get((chord.indexOf(port)+4)%chord.size()));
 
 				if((predecessorPortId.compareTo(keyid)<0 &&portid.compareTo(keyid)>=0)||
 						(predecessorPortId.compareTo(portid)>0&&keyid.compareTo(portid)>0&&keyid.compareTo(predecessorPortId)>0)||
 						(predecessorPortId.compareTo(portid)>0&&keyid.compareTo(portid)<0&&keyid.compareTo(predecessorPortId)<0)){
-//						if(port.equals(myPort)){
-//							if(local.containsKey(key)){local.get(key).setValue(value);
-//								Log.d(TAG,"in insert of port- "+myPort+"in local.containsKey"+"key- "+key+"value- "+local.get(key).getValue());
-//							}
-//							else{
-//								localmessage localmessag=new localmessage(key,value,port);
-//								local.put(key,localmessag);
-//								Log.d(TAG,"in insert of port- "+myPort+"in local.containsKey else"+"key- "+key+"value- "+local.get(key).getValue());
-//
-//							}
-//
-//							message msg=new message(message.type.INSERT,myPort,successor,nextSuccessor,key,value,1);
-//							Log.d(TAG,"in insert of port- "+myPort+"in local.containsKey after"+"key- "+msg.getKey()+"value- "+msg.getVal());
-//
-//							lookupinsert(msg);}
 
-//						else{   //(type value,String myport,String coordinator,String coordinator_substitute,String key,String val,int insertnumber)
 							message msg=new message(message.type.INSERT,myPort,port,successorPort,key,value,0,port);
 							Log.d(TAG,"in insert of port- "+myPort+"after local.containsKey "+"key- "+msg.getKey()+"value- "+msg.getVal());
-
 							lookupinsert(msg);
-//						}
 						break;
 				}
 			}
@@ -322,8 +305,8 @@ public class SimpleDynamoProvider extends ContentProvider {
 		}
 		while (!servermessages.isEmpty()){
 			synchronized (this){
-				serverFunction(servermessages.get(servermessages.size()-1));
-				servermessages.remove(servermessages.size()-1);
+				serverFunction(servermessages.get(0));
+				servermessages.remove(0);
 			}
 		}
 
@@ -564,12 +547,11 @@ public class SimpleDynamoProvider extends ContentProvider {
 				lookupinsert(msg);
 			}
 			else{
-				try {
-					wait(500);
+
+					servermsgnew.setCoordinator(servermsgnew.getCoordinator_substitute());
+					servermsgnew.setCoordinator_substitute(servermsgnew.getPortoperated());
 					lookupinsert(servermsgnew);
-				} catch (InterruptedException e) {
-					e.printStackTrace();
-				}
+
 			}
 		}
 //ok
@@ -739,6 +721,10 @@ public class SimpleDynamoProvider extends ContentProvider {
 					e.printStackTrace();
 				}
 			}
+//
+//			if(messages[0].getValue()==message.type.RECOVERY){
+//
+//			}
 
 
 			return null;

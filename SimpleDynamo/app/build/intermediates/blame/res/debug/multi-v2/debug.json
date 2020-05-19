@@ -1,32 +1,34 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/adityabansal/Desktop/Main/Subjects/spring20/DistributedSystem/projects/P4/SimpleDynamo/app/build/intermediates/res/merged/debug/values-sw720dp-land-v13_values-sw720dp-land-v13.arsc.flat",
+            "outputFile": "/Users/adityabansal/Desktop/SimpleDynamo/app/build/intermediates/res/merged/debug/values-v14_values-v14.arsc.flat",
             "map": [
                 {
-                    "source": "/Users/adityabansal/Desktop/Main/Subjects/spring20/DistributedSystem/projects/P4/SimpleDynamo/app/src/main/res/values-sw720dp-land/dimens.xml",
+                    "source": "/Users/adityabansal/Desktop/SimpleDynamo/app/src/main/res/values-v14/styles.xml",
                     "from": {
-                        "startLines": "6",
+                        "startLines": "7",
                         "startColumns": "4",
-                        "startOffsets": "200",
-                        "endColumns": "58",
-                        "endOffsets": "254"
+                        "startOffsets": "220",
+                        "endLines": "9",
+                        "endColumns": "12",
+                        "endOffsets": "366"
                     },
                     "to": {
                         "startLines": "2",
                         "startColumns": "4",
                         "startOffsets": "55",
-                        "endColumns": "58",
-                        "endOffsets": "109"
+                        "endLines": "4",
+                        "endColumns": "12",
+                        "endOffsets": "201"
                     }
                 }
             ]
         },
         {
-            "outputFile": "/Users/adityabansal/Desktop/Main/Subjects/spring20/DistributedSystem/projects/P4/SimpleDynamo/app/build/intermediates/res/merged/debug/values-v11_values-v11.arsc.flat",
+            "outputFile": "/Users/adityabansal/Desktop/SimpleDynamo/app/build/intermediates/res/merged/debug/values-v11_values-v11.arsc.flat",
             "map": [
                 {
-                    "source": "/Users/adityabansal/Desktop/Main/Subjects/spring20/DistributedSystem/projects/P4/SimpleDynamo/app/src/main/res/values-v11/styles.xml",
+                    "source": "/Users/adityabansal/Desktop/SimpleDynamo/app/src/main/res/values-v11/styles.xml",
                     "from": {
                         "startLines": "6",
                         "startColumns": "4",
@@ -47,44 +49,10 @@
             ]
         },
         {
-            "outputFile": "/Users/adityabansal/Desktop/Main/Subjects/spring20/DistributedSystem/projects/P4/SimpleDynamo/app/build/intermediates/res/merged/debug/values_values.arsc.flat",
+            "outputFile": "/Users/adityabansal/Desktop/SimpleDynamo/app/build/intermediates/res/merged/debug/values_values.arsc.flat",
             "map": [
                 {
-                    "source": "/Users/adityabansal/Desktop/Main/Subjects/spring20/DistributedSystem/projects/P4/SimpleDynamo/app/src/main/res/values/strings.xml",
-                    "from": {
-                        "startLines": "4,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "106,56",
-                        "endColumns": "52,49",
-                        "endOffsets": "154,101"
-                    },
-                    "to": {
-                        "startLines": "4,5",
-                        "startColumns": "4,4",
-                        "startOffsets": "169,222",
-                        "endColumns": "52,49",
-                        "endOffsets": "217,267"
-                    }
-                },
-                {
-                    "source": "/Users/adityabansal/Desktop/Main/Subjects/spring20/DistributedSystem/projects/P4/SimpleDynamo/app/src/main/res/values/dimens.xml",
-                    "from": {
-                        "startLines": "3,4",
-                        "startColumns": "4,4",
-                        "startOffsets": "89,147",
-                        "endColumns": "57,55",
-                        "endOffsets": "142,198"
-                    },
-                    "to": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,113",
-                        "endColumns": "57,55",
-                        "endOffsets": "108,164"
-                    }
-                },
-                {
-                    "source": "/Users/adityabansal/Desktop/Main/Subjects/spring20/DistributedSystem/projects/P4/SimpleDynamo/app/src/main/res/values/styles.xml",
+                    "source": "/Users/adityabansal/Desktop/SimpleDynamo/app/src/main/res/values/styles.xml",
                     "from": {
                         "startLines": "6,15",
                         "startColumns": "4,4",
@@ -101,29 +69,61 @@
                         "endColumns": "12,12",
                         "endOffsets": "558,718"
                     }
+                },
+                {
+                    "source": "/Users/adityabansal/Desktop/SimpleDynamo/app/src/main/res/values/strings.xml",
+                    "from": {
+                        "startLines": "4,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "106,56",
+                        "endColumns": "52,49",
+                        "endOffsets": "154,101"
+                    },
+                    "to": {
+                        "startLines": "4,5",
+                        "startColumns": "4,4",
+                        "startOffsets": "169,222",
+                        "endColumns": "52,49",
+                        "endOffsets": "217,267"
+                    }
+                },
+                {
+                    "source": "/Users/adityabansal/Desktop/SimpleDynamo/app/src/main/res/values/dimens.xml",
+                    "from": {
+                        "startLines": "3,4",
+                        "startColumns": "4,4",
+                        "startOffsets": "89,147",
+                        "endColumns": "57,55",
+                        "endOffsets": "142,198"
+                    },
+                    "to": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,113",
+                        "endColumns": "57,55",
+                        "endOffsets": "108,164"
+                    }
                 }
             ]
         },
         {
-            "outputFile": "/Users/adityabansal/Desktop/Main/Subjects/spring20/DistributedSystem/projects/P4/SimpleDynamo/app/build/intermediates/res/merged/debug/values-v14_values-v14.arsc.flat",
+            "outputFile": "/Users/adityabansal/Desktop/SimpleDynamo/app/build/intermediates/res/merged/debug/values-sw720dp-land-v13_values-sw720dp-land-v13.arsc.flat",
             "map": [
                 {
-                    "source": "/Users/adityabansal/Desktop/Main/Subjects/spring20/DistributedSystem/projects/P4/SimpleDynamo/app/src/main/res/values-v14/styles.xml",
+                    "source": "/Users/adityabansal/Desktop/SimpleDynamo/app/src/main/res/values-sw720dp-land/dimens.xml",
                     "from": {
-                        "startLines": "7",
+                        "startLines": "6",
                         "startColumns": "4",
-                        "startOffsets": "220",
-                        "endLines": "9",
-                        "endColumns": "12",
-                        "endOffsets": "366"
+                        "startOffsets": "200",
+                        "endColumns": "58",
+                        "endOffsets": "254"
                     },
                     "to": {
                         "startLines": "2",
                         "startColumns": "4",
                         "startOffsets": "55",
-                        "endLines": "4",
-                        "endColumns": "12",
-                        "endOffsets": "201"
+                        "endColumns": "58",
+                        "endOffsets": "109"
                     }
                 }
             ]

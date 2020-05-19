@@ -1,4 +1,4 @@
-#Wed May 06 17:23:35 EDT 2020
-base.0=/Users/adityabansal/Desktop/Main/Subjects/spring20/DistributedSystem/projects/P4/SimpleDynamo/app/build/intermediates/dex/debug/mergeDexDebug/out
+#Mon May 18 13:12:48 EDT 2020
+base.0=/Users/adityabansal/Desktop/SimpleDynamo/app/build/intermediates/dex/debug/mergeDexDebug/out
 path.0=classes.dex
 renamed.0=classes.dex

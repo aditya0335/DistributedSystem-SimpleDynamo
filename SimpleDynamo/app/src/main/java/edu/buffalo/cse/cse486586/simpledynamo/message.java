@@ -131,6 +131,16 @@ public class message implements Serializable {
 
     String portoperated;
 
+    public String getNext_coordinator_substitute() {
+        return next_coordinator_substitute;
+    }
+
+    public void setNext_coordinator_substitute(String next_coordinator_substitute) {
+        this.next_coordinator_substitute = next_coordinator_substitute;
+    }
+
+    String next_coordinator_substitute;
+
 
 
 

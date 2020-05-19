@@ -1,10 +1,29 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/adityabansal/Desktop/Main/Subjects/spring20/DistributedSystem/projects/P4/SimpleDynamo/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+            "outputFile": "/Users/adityabansal/Desktop/SimpleDynamo/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
             "map": [
                 {
-                    "source": "/Users/adityabansal/Desktop/Main/Subjects/spring20/DistributedSystem/projects/P4/SimpleDynamo/app/src/main/res/values/strings.xml",
+                    "source": "/Users/adityabansal/Desktop/SimpleDynamo/app/src/main/res/values/styles.xml",
+                    "from": {
+                        "startLines": "6,15",
+                        "startColumns": "4,4",
+                        "startOffsets": "186,510",
+                        "endLines": "12,17",
+                        "endColumns": "12,12",
+                        "endOffsets": "472,665"
+                    },
+                    "to": {
+                        "startLines": "6,13",
+                        "startColumns": "4,4",
+                        "startOffsets": "272,563",
+                        "endLines": "12,15",
+                        "endColumns": "12,12",
+                        "endOffsets": "558,718"
+                    }
+                },
+                {
+                    "source": "/Users/adityabansal/Desktop/SimpleDynamo/app/src/main/res/values/strings.xml",
                     "from": {
                         "startLines": "4,3",
                         "startColumns": "4,4",
@@ -21,7 +40,7 @@
                     }
                 },
                 {
-                    "source": "/Users/adityabansal/Desktop/Main/Subjects/spring20/DistributedSystem/projects/P4/SimpleDynamo/app/src/main/res/values/dimens.xml",
+                    "source": "/Users/adityabansal/Desktop/SimpleDynamo/app/src/main/res/values/dimens.xml",
                     "from": {
                         "startLines": "3,4",
                         "startColumns": "4,4",
@@ -35,25 +54,6 @@
                         "startOffsets": "55,113",
                         "endColumns": "57,55",
                         "endOffsets": "108,164"
-                    }
-                },
-                {
-                    "source": "/Users/adityabansal/Desktop/Main/Subjects/spring20/DistributedSystem/projects/P4/SimpleDynamo/app/src/main/res/values/styles.xml",
-                    "from": {
-                        "startLines": "6,15",
-                        "startColumns": "4,4",
-                        "startOffsets": "186,510",
-                        "endLines": "12,17",
-                        "endColumns": "12,12",
-                        "endOffsets": "472,665"
-                    },
-                    "to": {
-                        "startLines": "6,13",
-                        "startColumns": "4,4",
-                        "startOffsets": "272,563",
-                        "endLines": "12,15",
-                        "endColumns": "12,12",
-                        "endOffsets": "558,718"
                     }
                 }
             ]
